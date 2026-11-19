@@ -135,16 +135,5 @@
       <img class="brand" src="./lg-display.png" width="338" height="64" alt="LG Display">
     </div>
   </main>
-  <script>
-    // Offer the dialer on a fresh app launch; keep browser visits available for installation.
-    window.addEventListener("pageshow", (event) => {
-      const isApp = navigator.standalone === true ||
-        window.matchMedia("(display-mode: standalone)").matches;
-      const navigation = performance.getEntriesByType("navigation")[0];
-      if (isApp && !event.persisted && (!navigation || navigation.type === "navigate")) {
-        window.location.assign(document.querySelector(".call").href);
-      }
-    }, { once: true });
-  </script>
 </body>
 </html>
