@@ -16,16 +16,10 @@
       "purpose": "any"
     },
     {
-      "src": "./mascot-icon-512.png?v=mascot-3",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
       "src": "./mascot-maskable-512.png?v=cms-4",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ]
 }
