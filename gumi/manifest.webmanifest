@@ -22,7 +22,7 @@
       "purpose": "any"
     },
     {
-      "src": "./mascot-maskable-512.png?v=mascot-3",
+      "src": "./mascot-maskable-512.png?v=cms-4",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
